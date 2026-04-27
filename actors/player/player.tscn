@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://chffhgtx0qwrd"]
+
+[ext_resource type="Script" uid="uid://sq6uhmm3v8nh" path="res://addons/game_core/actors/gc_character_host.gd" id="1_nvxhs"]
+
+[node name="Player" type="CharacterBody2D" unique_id=1421424054]
+script = ExtResource("1_nvxhs")
+metadata/_custom_type_script = "uid://sq6uhmm3v8nh"
