@@ -29,6 +29,7 @@ func on_physics(host: Node, _delta: float) -> void:
 	if _driver == null or not (host is CharacterBody2D):
 		return
 	var sliding := (host as CharacterBody2D).is_on_wall()
+	host.local_state[&"wall_sliding"] = sliding
 	if sliding == _is_sliding:
 		return;
 	_is_sliding = sliding
